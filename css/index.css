@@ -202,14 +202,9 @@ img {
   font-size: 1.55rem;
   text-decoration: none;
   color: #006B3F;
-  margin-left: 10.5%;
 }
 .intro-section {
-
-  background: #e5f2f2 url(../img/school-children.jpg);
-
- 
-
+  background: #E5F2F2 url(../img/school-children.jpg);
   background-size: cover;
   top: 0;
   min-height: 55vh;
@@ -221,11 +216,7 @@ img {
       border:solid; */
 }
 .intro-section .intro-text {
-
-
-
   color: #E5F2F2;
-
   font-weight: bold;
 }
 .intro-section .intro-text h1 {
