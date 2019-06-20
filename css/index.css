@@ -205,15 +205,26 @@ img {
   margin-left: 10.5%;
 }
 .intro-section {
+  background: #E5F2F2 url(../img/school-apple.jpg);
+  background-size: cover;
   top: 0;
-  background: #E5F2F2;
   min-height: 55vh;
   padding-top: 45vh;
   padding-bottom: 160px;
   /*   line-height: 100vh; */
   /*   width:100%;
-    height:96vh;
-  border:solid; */
+        height:96vh;
+      border:solid; */
+}
+.intro-section .intro-text {
+  color: #E5F2F2;
+  font-weight: bold;
+}
+.intro-section .intro-text h1 {
+  font-size: 10rem;
+}
+.intro-section .intro-text p {
+  font-size: 12rem;
 }
 .intro-photo {
   margin-top: 90px;
