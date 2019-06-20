@@ -136,7 +136,7 @@ html {
 }
 html,
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 body {
   text-align: center;
@@ -146,7 +146,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -173,7 +173,7 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-intro-section {
+.intro-section {
   top: 0;
   background: #e5f2f2;
   min-height: 55vh;
@@ -184,18 +184,18 @@ intro-section {
     height:96vh;
   border:solid; */
 }
-intro-photo {
+.intro-photo {
   margin-top: 90px;
   color: #fe4a49;
   font-weight: bold;
   padding: 110px 0 110px;
 }
-feature-section {
+.feature-section {
   padding: 110px 0 110px;
   background: #cfcfd1;
   padding-bottom: 160px;
 }
-feature-section feature-header {
+.feature-section .feature-header {
   margin-top: 50px;
   color: #073784;
   font-weight: bold;
