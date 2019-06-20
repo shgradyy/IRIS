@@ -128,6 +128,8 @@ table {
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
   font-size: 62.5%;
@@ -135,6 +137,9 @@ html {
 html,
 body {
   font-family: 'Montserrat', sans-serif;
+}
+body {
+  text-align: center;
 }
 h1,
 h2,
@@ -167,4 +172,36 @@ img {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+}
+intro-section {
+  top: 0;
+  background: #e5f2f2;
+  min-height: 55vh;
+  padding-top: 45vh;
+  padding-bottom: 160px;
+  /*   line-height: 100vh; */
+  /*   width:100%;
+    height:96vh;
+  border:solid; */
+}
+intro-photo {
+  margin-top: 90px;
+  color: #fe4a49;
+  font-weight: bold;
+  padding: 110px 0 110px;
+}
+feature-section {
+  padding: 110px 0 110px;
+  background: #cfcfd1;
+  padding-bottom: 160px;
+}
+feature-section feature-header {
+  margin-top: 50px;
+  color: #073784;
+  font-weight: bold;
+}
+img {
+  width: 50rem;
+  height: 40rem;
+  padding: 20px;
 }
