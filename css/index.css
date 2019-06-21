@@ -278,3 +278,84 @@ img {
   height: 40rem;
   padding: 20px;
 }
+#feature-item-intro {
+  background: url(../img/dark-empty-classroom.jpg);
+  background-size: cover;
+  background-color: #cfcfd1;
+  opacity: 0.9;
+  top: 0;
+  min-height: 60vh;
+  padding-top: 45vh;
+  padding-bottom: 190px;
+  width: 100%;
+}
+#feature-item-intro .feature-header {
+  color: #FCB614;
+  padding: 12px;
+  font-size: 4rem;
+}
+#feature-item-intro .feature-content {
+  color: #FCB614;
+  padding: 12px;
+  font-size: 2.5rem;
+}
+#app-feature {
+  background: url(../img/Cell\ Phone.jpg);
+  background-size: cover;
+  background-color: #cfcfd1;
+  top: 0;
+  min-height: 60vh;
+  padding-top: 15vh;
+  padding-bottom: 190px;
+  width: 100%;
+}
+#app-feature .feature-header {
+  color: #073784;
+  padding: 12px;
+  font-size: 5rem;
+}
+#app-feature .feature-content {
+  color: #073784;
+  padding: 12px;
+  font-size: 2.5rem;
+}
+#connect-feature {
+  background: url(../img/sticky=note\ meeting.jpg);
+  background-size: cover;
+  background-color: #cfcfd1;
+  top: 0;
+  min-height: 60vh;
+  padding-top: 45vh;
+  padding-bottom: 190px;
+  width: 100%;
+}
+#connect-feature .feature-header {
+  color: #E5F2F2;
+  padding: 12px;
+  font-size: 5rem;
+}
+#connect-feature .feature-content {
+  color: #E5F2F2;
+  padding: 12px;
+  font-size: 2.5rem;
+}
+#work-order-feature {
+  background: url(../img/working-laptops.jpg);
+  background-size: cover;
+  background-color: #cfcfd1;
+  top: 0;
+  min-height: 60vh;
+  padding-top: 45vh;
+  padding-bottom: 190px;
+  width: 100%;
+}
+#work-order-feature .feature-header {
+  color: #E5F2F2;
+  padding: 12px;
+  font-size: 5rem;
+}
+#work-order-feature .feature-content {
+  color: #E5F2F2;
+  padding: 12px;
+  font-size: 2.5rem;
+}
