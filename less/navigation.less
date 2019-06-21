@@ -1,31 +1,56 @@
 .navigation {
     margin: 0 auto;
     display: flex;
-    padding-bottom: 30px;
-       
+    background-color: @navBg;
+    max-width: 1000px;
+    padding: 25px 6%; 
+    position: fixed; 
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed black;
+
     @media @mobile {
         flex-direction: column;
         width: 100%;
-        align-items: center;
+        padding: 25px 6.75% 10px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: @navFont;
     }
 
     nav {
-        width: 85%;
-        display: flex;
+        display: inherit;
         justify-content: space-evenly;
-        align-items: center;
-  
+        width: 60%;
+
         @media @mobile {
             padding-top: 20px;
-            justify-content: space-evenly;
+            justify-content: space-between;
             width: 100%;
         }
-                       
-        a {
-            font-size: 1.55rem;
-            text-decoration: none;
-            color: @navFont;
-            //margin-left: 10.5%;
-        }    
     }
-} //navigation
+  
+    a {
+        color: @navFont;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 1.55rem; 
+        line-height: 25px;
+        margin-right: 3.5%;
+        //border-radius: 4px;
+
+        &:hover {
+            .cursorRules();
+        }
+    
+        &:focus {
+            .cursorRules();
+        }
+    }
+ 
+}
