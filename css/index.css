@@ -255,6 +255,7 @@ img {
 }
 .intro-photo {
   margin-top: 90px;
+  background-size: cover;
   color: #CB2029;
   font-weight: bolder;
   padding: 110px 0 110px;
