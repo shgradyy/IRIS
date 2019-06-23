@@ -9,7 +9,7 @@
 font-family: ‘Karla’, sans-serif;
 font-family: ‘Montserrat’, sans-serif;-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
-    <script></script> <!-- Will add JS functionality here. -->
+    <script src="JS/main.js"></script> <!-- Will add JS functionality here. -->
     
   </head>
 
@@ -17,16 +17,36 @@ font-family: ‘Montserrat’, sans-serif;-->
     <div class="container">
     <div class="navigation">
 <h1>IRIS</h1>
+<a href="" class="modal-button" id="btn">Register/Sign-in</a>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
       <a href="features.html">Features</a>
       <a href="pricing.html">Pricing</a>
-    </nav>
+      </nav>
   </div>
     <div class="intro-section" id="landing">
           <h1 class="intro-text">IRIS</h1>
           <p class="intro-text">International Rural School Report</p>
+
+<!--Modal Popout content area------------------------->
+  <div class="modal-background" id="modal-bg">
+    <div class="modal-content">
+        <div class="close" id="closeB">+</div>
+        <h2>Register Your Account:</h2>
+      <img src="img/logo.jpg" alt="logo" id="modal-img">
+
+      <form action="" class="modal-form">
+          <a href="" class="modal-button">Sign-in</a>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email">
+        <a href="" class="modal-button">Submit</a>
+       </form>
+    </div>
+
+  
+  </div>
         </div>
         <div class="intro-photo">
           <h2>Register now to recieve updates about the IRIS Education Management       System</h2>
