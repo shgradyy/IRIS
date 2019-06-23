@@ -176,12 +176,11 @@ img {
 .navigation {
   margin: 0 auto;
   display: flex;
-  background-color: #FCB614;
+  background-color: #A7C737;
+  width: 100%;
   max-width: 1000px;
   padding: 25px 6%;
-  position: fixed;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   border-bottom: 2px dashed black;
 }
@@ -192,14 +191,15 @@ img {
     padding: 25px 6.75% 10px;
   }
 }
-.navigation h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  color: #CB2029;
+@media (max-width: 725px) {
+  .navigation {
+    flex-direction: column;
+    width: 100%;
+    padding: 25px 6.75% 10px;
+  }
 }
 .navigation .modal-button {
   -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
-  -webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
   box-shadow: 3px 4px 0px 0px #8a2a21;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
   background: -moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
@@ -219,8 +219,21 @@ img {
   font-family: Arial;
   font-size: 17px;
   padding: 7px 25px;
+  margin-top: 25%;
   text-decoration: none;
   text-shadow: 0px 1px 0px #810e05;
+}
+@media (max-width: 500px) {
+  .navigation .modal-button {
+    margin: 15px;
+    width: 100%;
+  }
+}
+@media (max-width: 725px) {
+  .navigation .modal-button {
+    margin: 15px;
+    width: 100%;
+  }
 }
 .navigation .modal-button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
@@ -231,16 +244,23 @@ img {
   background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f', GradientType=0);
   background-color: #f24437;
+  border-radius: 18px;
 }
-.navigation nav {
-  display: inherit;
+.navigation .nav-links {
+  display: inline-block;
   justify-content: space-evenly;
-  width: 60%;
+  margin-top: 5%;
 }
 @media (max-width: 500px) {
-  .navigation nav {
-    padding-top: 20px;
-    justify-content: space-between;
+  .navigation .nav-links {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+@media (max-width: 725px) {
+  .navigation .nav-links {
+    justify-content: space-evenly;
+    margin: 5px;
     width: 100%;
   }
 }
@@ -254,16 +274,32 @@ img {
   margin-right: 3.5%;
 }
 .navigation a:hover {
-  border: 3px solid #A7C737;
+  text-decoration: underline;
   color: #CB2029;
-  background: #FCB614;
   border-radius: 15%;
 }
 .navigation a:focus {
-  border: 3px solid #A7C737;
+  text-decoration: underline;
   color: #CB2029;
-  background: #FCB614;
   border-radius: 15%;
+}
+.navigation .img-logo {
+  min-width: 15rem;
+  max-width: 15rem;
+  height: 15rem;
+  border-radius: 25%;
+}
+@media ((max-width: 500px)) {
+  .navigation .img-logo {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+@media ((max-width: 725px)) {
+  .navigation {
+    width: 100%;
+    margin: 6px 0;
+  }
 }
 .intro-section {
   background: #E5F2F2 url(../img/school-children.jpg);
@@ -299,20 +335,20 @@ img {
   background: #FCB614;
   background-size: cover;
 }
-.feature-section {
+.intro-photo img {
+  width: 50rem;
+  height: 40rem;
+  padding: 20px;
+}
+.intro-photo .feature-section {
   padding: 110px 0 110px;
   background: #cfcfd1;
   padding-bottom: 160px;
 }
-.feature-section .feature-header {
+.intro-photo .feature-section .feature-header {
   margin-top: 50px;
   color: #073784;
   font-weight: bold;
-}
-img {
-  width: 50rem;
-  height: 40rem;
-  padding: 20px;
 }
 #feature-item-intro {
   background: url(../img/dark-empty-classroom.jpg);
