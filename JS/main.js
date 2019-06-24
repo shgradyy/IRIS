@@ -1,5 +1,5 @@
 //Get modal background
-const modBackground = getElementById("modal-bg");
+const modBackground = document.getElementById("modal-bg");
 
 // Get  open modal button
 const modalBtn = document.getElementById("btn");
