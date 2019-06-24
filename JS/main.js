@@ -1,23 +1,31 @@
-// Get modal element
-const modal = document.getElementById('modal-bg');
+//Get modal background
+const modBackground = getElementById("modal-bg");
 
-// Get  open modal Content
+// Get  open modal button
 const modalBtn = document.getElementById("btn");
 
 //Close button
-const closeBtn = document.getElementById('closeB');
+const closeBtn = document.getElementById("closeB");
 
-//Listen for click
-modalBtn.addEventListener('click', openModal);
+//Listen for  open click
+modalBtn.addEventListener("click", openModal);
 
+//Listen for close click
+closeBtn.addEventListener("click", closeModal);
+
+//function to open modal
 function openModal(){
-    console.log('hey');
+    modBackground.style.display = "flex";
+}
+
+//function to close modal
+function closeModal(){
+    modBackground.style.display = "none"
 }
 
 
 
-/*document.getElementById('btn').addEventListener("click", () => document.querySelector('.modal-background').getElementsByClassName.display = "flex");
 
-document.querySelector('.close').addEventListener('click', function() {
-    document.querySelector('.modal-background').getElementsByClassName.display = "none";
-})*/
+
+
+
