@@ -178,7 +178,6 @@ img {
   display: flex;
   background-color: #A7C737;
   width: 100%;
-  max-width: 1000px;
   padding: 1.5rem 2rem;
   justify-content: space-evenly;
   border-bottom: 2px dashed black;
@@ -263,7 +262,7 @@ img {
 .navigation a {
   color: #CB2029;
   text-align: center;
-  padding: 5px;
+  padding: 8px;
   text-decoration: none;
   font-size: 1.55rem;
   line-height: 25px;
@@ -352,6 +351,66 @@ footer p {
   margin-top: 50px;
   color: #073784;
   font-weight: bold;
+}
+.panels {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: none;
+  width: 100%;
+  height: auto;
+  padding: 10px 6.75%;
+}
+@media (max-width: 500px) {
+  .panels {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.panels .header {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: red;
+}
+.panels .panel-btns {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .panels .panel-btns {
+    margin-top: 1.5rem;
+  }
+}
+.panels .panel-btns .panel {
+  color: red;
+  margin: 0 5px;
+  padding: 2px 10px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+/*card*/
+.card-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card-box .about-card {
+  border: 1px solid black;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 380px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+.card-box .about-card .name-title {
+  font-size: 25px;
+}
+.card-box .about-card .img-box {
+  padding-right: 10px;
+  border: 1px solid red;
 }
 #feature-item-intro {
   background: url(../img/dark-empty-classroom.jpg);
@@ -509,4 +568,64 @@ footer p {
 }
 .modal-background .modal-content input {
   margin: 8px auto;
+}
+.info-top {
+  display: block;
+  flex-wrap: wrap;
+  border-bottom: 2px dashed black;
+  padding-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .info-top {
+    width: 100%;
+  }
+}
+.comp-history {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .comp-history {
+    flex-direction: column;
+  }
+}
+.comp-history .text-box {
+  width: 48%;
+  padding-right: 1%;
+}
+@media (max-width: 500px) {
+  .comp-history .text-box {
+    width: 100%;
+  }
+}
+.comp-history .img-content {
+  width: 48%;
+  padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .comp-history .img-content {
+    width: 100%;
+  }
+}
+.comp-history .img-content img {
+  border-radius: 10px;
+}
+.reverse {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed black;
+}
+@media (max-width: 500px) {
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+.reverse .text-content {
+  padding-left: 1%;
+  padding-right: 0;
+}
+.reverse .img-content {
+  padding-right: 1%;
+  padding-left: 0;
 }
