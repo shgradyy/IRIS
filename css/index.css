@@ -176,7 +176,7 @@ img {
 .navigation {
   margin: 0 auto;
   display: flex;
-  background-color: #A7C737;
+  background-color: #CB2029;
   width: 100%;
   padding: 1.5rem 2rem;
   justify-content: space-evenly;
@@ -260,7 +260,7 @@ img {
   }
 }
 .navigation a {
-  color: #CB2029;
+  color: #A7C737;
   text-align: center;
   padding: 8px;
   text-decoration: none;
@@ -269,12 +269,12 @@ img {
 }
 .navigation a:hover {
   text-decoration: underline;
-  color: #CB2029;
+  color: #A7C737;
   border-radius: 15%;
 }
 .navigation a:focus {
   text-decoration: underline;
-  color: #CB2029;
+  color: #A7C737;
   border-radius: 15%;
 }
 .navigation .img-logo {
@@ -327,8 +327,13 @@ img {
 }
 footer {
   border-top: 2px dashed black;
-  background-color: #CB2029;
-  color: #A7C737;
+  background-color: #A7C737;
+  color: #CB2029;
+}
+footer .apps {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 footer p {
   font-size: 1.2rem;
@@ -572,13 +577,18 @@ footer p {
 .info-top {
   display: block;
   flex-wrap: wrap;
-  border-bottom: 2px dashed black;
+  border-top: 2px dashed black;
+  margin-top: 30px;
   padding-bottom: 30px;
+  background-color: #FCB614;
 }
 @media (max-width: 500px) {
   .info-top {
     width: 100%;
   }
+}
+.info-top .text-cnt {
+  margin-top: 10px;
 }
 .comp-history {
   margin: 30px 0;
