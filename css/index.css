@@ -178,7 +178,6 @@ img {
   display: flex;
   background-color: #A7C737;
   width: 100%;
-  max-width: 1000px;
   padding: 1.5rem 2rem;
   justify-content: space-evenly;
   border-bottom: 2px dashed black;
@@ -571,15 +570,14 @@ footer p {
   margin: 8px auto;
 }
 .info-top {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  border-top: 2px dashed red;
-  border-bottom: 2px dashed red;
+  border-bottom: 2px dashed black;
   padding-bottom: 30px;
 }
 @media (max-width: 500px) {
   .info-top {
-    width: 88%;
+    width: 100%;
   }
 }
 .comp-history {
