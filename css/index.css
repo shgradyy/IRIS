@@ -503,7 +503,10 @@ footer p {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
+  z-index: 1;
   top: 0;
+  left: 0;
+  overflow: auto;
   justify-content: center;
   align-items: center;
   display: none;
@@ -516,6 +519,8 @@ footer p {
   text-align: center;
   padding: 20px;
   position: relative;
+  animation-name: modOpen;
+  animation-duration: 1s;
 }
 .modal-background .modal-content .close {
   position: absolute;
@@ -572,6 +577,14 @@ footer p {
 }
 .modal-background .modal-content input {
   margin: 8px auto;
+}
+@keyframes modOpen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .info-top {
   display: block;
