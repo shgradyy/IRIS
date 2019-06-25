@@ -10,11 +10,28 @@
   <!--[if lt IE 9]>
    [<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-<script type="text/javascript" src="JS/about.js" async></script> 
+<script type="text/javascript" src="JS/main.js" async></script> <!-- Will add JS functionality here. -->
 </head>
 
 <body>
-<!-- <script defer="defer" src="./js/navigation.js"></script> -->
+<!--Modal Popout content area-->
+  <div class="modal-background" id="modal-bg">
+    <div class="modal-content">
+        <div class="close" id="closeB">+</div>
+        <h2>Register Your Account:</h2>
+      <img src="img/iris-logoo.png" alt="logo" id="modal-img">
+
+      <form action="" class="modal-form">
+          <a href="" class="modal-button">Sign-in</a>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email">
+        <a href="" class="modal-button">Submit</a>
+       </form>
+       
+      </div>
+  </div> <!--End of Modal Popout-->
+
 <div class="navigation"> <!--navigaion bar that locks when scrolling-->
     <div = "photo-box">
         <img src = "img/iris-logoo.png" alt = "IRIS Logo" class = "img-logo">
@@ -26,14 +43,15 @@
         <a href="learn.html">Our Company</a>
     </div>
     <div class = "button-box">
-        <a href="" class="modal-button" id="btn">Register/Sign-in</a> 
+        <a href="#" class="modal-button" id="btn">Register/Sign-in</a> 
     </div>
 </div><!--navigaion bar-->
 
 <div class="container">
+<div class="container">
     <section class = "info-top">
         <div class = "img-cnt">
-             <img src="img/computer.jpg" alt="Learn Scrable Letters">
+             <img src="img/computer.jpg" alt="Meeting Plan">
         </div>
         <div class = "text-cnt">
             <h2>Hello, World!</h2>
@@ -234,17 +252,15 @@
 
   </div> <!--container-->
 <footer>
-       
-      
-          <div class="apps">
-          <div>
-              <div class="btn">App Store Download</div>
-              <div class="btn">App Store Download</div>
-         </div>
+    <div class="apps">
+        <div class = "legal">
+               <a href="#">Privacy Policy</a>
+             <a href="#">Terms of Service</a>
+        </div>
   
       <p>Copyright International Rural School Report 2019</p>
       <a href="https://twitter.com/ghanamakeadiff?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @ghanamakeadiff</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- </div>
+    </div>
 </footer>
 </body>
 </html>

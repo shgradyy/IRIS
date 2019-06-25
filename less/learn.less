@@ -1,71 +1,71 @@
-    .info-top {
-        display: block;
-        flex-wrap: wrap;
-        //border-top: 2px dashed black;
-        margin-top: 30px;
-        padding-bottom: 30px;
-        background-color: @infoTopBg;
-  
-        @media @mobile {
-            width: 100%;
-        }
-
-        .text-cnt {
-            margin-top: 10px;
-        }
-
-        
-    }
-
-    .comp-history {
-    margin: 30px 0;
-    display: flex;
+.info-top {
+    display: block;
     flex-wrap: wrap;
-    justify-content: space-between;
-   
-
-    @media @mobile {
-      flex-direction: column;
-    }
-       
-        .text-box {
-            width: 48%;
-            padding-right: 1%;
-
-        @media @mobile {
-            width: 100%
-        }
-        }
-
-        .img-content {
-            width: 48%;
-            padding-left: 1%;
-
-        @media @mobile {
-            width: 100%
-        }
-
-        img {
-            border-radius: 10px;
-        }
-        }
-    }
-
-.reverse {
+    //border-top: 2px dashed black;
+    margin-top: 30px;
     padding-bottom: 30px;
-    //border-bottom: 2px dashed black;
+    //background-color: @infoTopBg;
 
     @media @mobile {
-      flex-direction: column-reverse;
+        width: 100%;
     }
 
-    .text-content {
-      padding-left: 1%;
-      padding-right: 0;
+    .text-cnt {
+        margin-top: 10px;
+    }
+
+    
+}
+
+.comp-history {
+margin: 30px 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+@media @mobile {
+  flex-direction: column;
+}
+   
+    .text-box {
+        width: 48%;
+        padding-right: 1%;
+
+    @media @mobile {
+        width: 100%
+    }
     }
 
     .img-content {
-      padding-right: 1%;
-      padding-left: 0;
+        width: 48%;
+        padding-left: 1%;
+
+    @media @mobile {
+        width: 100%
     }
+
+    img {
+        border-radius: 10px;
+    }
+    }
+}
+
+.reverse {
+padding-bottom: 30px;
+//border-bottom: 2px dashed black;
+
+@media @mobile {
+  flex-direction: column-reverse;
+}
+
+.text-content {
+  padding-left: 1%;
+  padding-right: 0;
+}
+
+.img-content {
+  padding-right: 1%;
+  padding-left: 0;
+}
 }
