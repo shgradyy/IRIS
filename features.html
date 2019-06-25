@@ -9,7 +9,7 @@
 font-family: ‘Karla’, sans-serif;
 font-family: ‘Montserrat’, sans-serif;-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
-    
+    <script type="text/javascript" src="JS/main.js" async></script> <!-- Will add JS functionality here. -->
     
   </head>
 
@@ -26,7 +26,7 @@ font-family: ‘Montserrat’, sans-serif;-->
             <a href="about.html">Our Team</a>
         </div>
         <div class = "button-box">
-            <a href="" class="modal-button" id="btn">Register/Sign-in</a> 
+            <a href="#" class="modal-button" id="btn">Register/Sign-in</a> 
        </div>
   </div><!--navigaion bar-->
 
@@ -38,7 +38,23 @@ font-family: ‘Montserrat’, sans-serif;-->
         </div>
                 
         <!--End of Landing------------------------------------->
+       <!--Modal Popout content area------------------------->
+  <div class="modal-background" id="modal-bg">
+    <div class="modal-content">
+        <div class="close" id="closeB">+</div>
+        <h2>Register Your Account:</h2>
+      <img src="img/iris-logoo.png" alt="logo" id="modal-img">
+
+      <form action="" class="modal-form">
+          <a href="" class="modal-button">Sign-in</a>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email">
+        <a href="" class="modal-button">Submit</a>
+       </form>
        
+      </div>
+  </div> <!--End of Modal Popout-->
         <div class="feature-section" id="features">
           
           <div class="feature-item" id="feature-item-intro">
