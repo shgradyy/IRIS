@@ -3,10 +3,13 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
+    z-index: 1;
     top: 0;
+    left: 0;
+    overflow: auto;
     justify-content: center;
     align-items: center;
-    display:none;
+    display:none; 
 
     .modal-content {
         width: 300px;
@@ -16,6 +19,8 @@
         text-align: center;
         padding: 20px;
         position: relative;
+        animation-name:modOpen;
+        animation-duration: 1s;
 
         .close{
             position: absolute;
@@ -75,6 +80,10 @@
         }
         input {
             margin: 8px auto;
+        }
+
+        @keyframes modOpen {
+            from{opacity: 0} to {opacity: 1}
         }
     }
 }
