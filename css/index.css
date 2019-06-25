@@ -180,7 +180,6 @@ img {
   width: 100%;
   padding: 1.5rem 2rem;
   justify-content: space-evenly;
-  border-bottom: 2px dashed black;
 }
 @media (max-width: 500px) {
   .navigation {
@@ -260,21 +259,22 @@ img {
   }
 }
 .navigation a {
-  color: #A7C737;
+  color: #36312F;
   text-align: center;
   padding: 8px;
   text-decoration: none;
-  font-size: 1.55rem;
+  font-size: 1.8rem;
+  font-weight: bold;
   line-height: 25px;
 }
 .navigation a:hover {
   text-decoration: underline;
-  color: #A7C737;
+  color: black;
   border-radius: 15%;
 }
 .navigation a:focus {
   text-decoration: underline;
-  color: #A7C737;
+  color: black;
   border-radius: 15%;
 }
 .navigation .img-logo {
@@ -326,9 +326,9 @@ img {
   padding: 110px 0 110px;
 }
 footer {
-  border-top: 2px dashed black;
   background-color: #A7C737;
-  color: #CB2029;
+  color: #36312F;
+  font-weight: bold;
 }
 footer .apps {
   display: flex;
@@ -359,7 +359,6 @@ footer p {
 }
 .panels {
   display: flex;
-  border: 1px solid black;
   justify-content: center;
   align-items: none;
   width: 100%;
@@ -373,10 +372,10 @@ footer p {
   }
 }
 .panels .header {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   letter-spacing: 2px;
   font-weight: bold;
-  color: red;
+  color: #36312F;
 }
 .panels .panel-btns {
   display: flex;
@@ -387,10 +386,10 @@ footer p {
   }
 }
 .panels .panel-btns .panel {
-  color: red;
+  color: #36312F;
   margin: 0 5px;
   padding: 2px 10px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   letter-spacing: 2px;
   cursor: pointer;
   font-weight: bold;
@@ -411,7 +410,7 @@ footer p {
   padding: 24px;
 }
 .card-box .about-card .name-title {
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 .card-box .about-card .img-box {
   padding-right: 10px;
@@ -576,7 +575,6 @@ footer p {
 .info-top {
   display: block;
   flex-wrap: wrap;
-  border-top: 2px dashed black;
   margin-top: 30px;
   padding-bottom: 30px;
   background-color: #FCB614;
@@ -623,7 +621,6 @@ footer p {
 }
 .reverse {
   padding-bottom: 30px;
-  border-bottom: 2px dashed black;
 }
 @media (max-width: 500px) {
   .reverse {
