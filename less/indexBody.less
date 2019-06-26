@@ -2,12 +2,69 @@
   background: @metallicYellow;
   background-size: cover;
 
+  .intro-animation{
+    animation:blinkingText 4s infinite;
+    margin: 0, auto;
+    font-size: 5rem;
+  }
+  .modal-button {
+    -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+    background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+    background-color:#c62d1f;
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    border-radius: 18px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding: 7px 25px;
+    margin-top: 25%;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ec4438;
+    
+
+    @media @mobile {
+      margin: 15px;
+      width: 100%;
+  }
+
+  @media @tablet{
+      margin: 15px;
+      width: 100%;
+  }
+  #btn2{
+    padding-bottom: 100px;
+  }
+}
+.modal-button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+    background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+    background-color:#f24437;
+    border-radius: 18px;
+}
+
   img {
     width: 50rem;
     height: 40rem;
     padding: 20px;
   }
 
+  
    .feature-section {
       padding: 110px 0 110px;
       background: @featureBg;
@@ -18,6 +75,11 @@
           color: @featureFont;
           font-weight: bold;
       }
-         
+      @keyframes blinkingText {
+        0% {color: @philippineRed;}
+        99% {color: transparent;}
+        100% {color: @philippineRed;}
+      }
+        
    } 
 }
