@@ -176,7 +176,6 @@ img {
 .navigation {
   margin: 0 auto;
   display: flex;
-  background-color: #CB2029;
   width: 100%;
   padding: 1.5rem 2rem;
   justify-content: space-evenly;
@@ -325,18 +324,67 @@ img {
   font-weight: bolder;
   padding: 110px 0 110px;
 }
+.headerBox {
+  position: relative;
+  text-align: center;
+  color: #FCB614;
+}
+.headerBox .bottom-left {
+  position: absolute;
+  bottom: 1em;
+  left: 10em;
+}
+.headerBox .bottom-left h2 {
+  font-size: 6rem;
+  letter-spacing: 10px;
+}
+.headerBox .bottom-left p {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.headerBox .img-header {
+  opacity: 0.9;
+}
+.info-top {
+  display: block;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .info-top {
+    width: 100%;
+  }
+}
+.info-top img {
+  width: 100%;
+  opacity: 0.9;
+}
+.info-top .text-cnt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.info-top .text-cnt h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+.info-top .text-cnt p {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
 footer {
-  background-color: #A7C737;
   color: #36312F;
   font-weight: bold;
 }
 footer .apps {
-  display: flex;
-  justify-content: space-evenly;
   margin-top: 10px;
 }
 footer p {
   font-size: 1.2rem;
+}
+footer img {
+  width: 100%;
+  opacity: 0.9;
 }
 .intro-photo {
   background: #FCB614;
@@ -661,65 +709,110 @@ footer p {
     opacity: 1;
   }
 }
-.info-top {
-  display: block;
-  flex-wrap: wrap;
-  margin-top: 30px;
-  padding-bottom: 30px;
+.middle-learn {
+  background-color: #FCB614;
+  border-radius: 10px;
 }
-@media (max-width: 500px) {
-  .info-top {
-    width: 100%;
-  }
-}
-.info-top .text-cnt {
-  margin-top: 10px;
-}
-.comp-history {
+.middle-learn .comp-history {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 30px;
 }
 @media (max-width: 500px) {
-  .comp-history {
+  .middle-learn .comp-history {
     flex-direction: column;
   }
 }
-.comp-history .text-box {
+.middle-learn .comp-history .text-box {
   width: 48%;
   padding-right: 1%;
+  padding-left: 4%;
 }
 @media (max-width: 500px) {
-  .comp-history .text-box {
+  .middle-learn .comp-history .text-box {
     width: 100%;
   }
 }
-.comp-history .img-content {
+.middle-learn .comp-history .img-content {
   width: 48%;
   padding-left: 1%;
 }
 @media (max-width: 500px) {
-  .comp-history .img-content {
+  .middle-learn .comp-history .img-content {
     width: 100%;
   }
 }
-.comp-history .img-content img {
+.middle-learn .comp-history .img-content img {
   border-radius: 10px;
 }
-.reverse {
+.middle-learn .reverse {
+  padding-left: 0;
+  padding-right: 3%;
   padding-bottom: 30px;
+  padding-top: 0;
 }
 @media (max-width: 500px) {
-  .reverse {
+  .middle-learn .reverse {
     flex-direction: column-reverse;
   }
 }
-.reverse .text-content {
+.middle-learn .reverse .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
-.reverse .img-content {
+.middle-learn .reverse .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+.middle-learn .additional {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .middle-learn .additional {
+    flex-direction: column;
+  }
+}
+.middle-learn .additional .contact-info {
+  margin: auto 0;
+  width: 48%;
+}
+@media (max-width: 500px) {
+  .middle-learn .additional .contact-info {
+    width: 100%;
+  }
+}
+.middle-learn .additional .form-box {
+  width: 48%;
+  border-radius: 10px;
+  padding: 20px;
+}
+@media (max-width: 500px) {
+  .middle-learn .additional .form-box {
+    width: 100%;
+  }
+}
+.middle-learn .additional .form-box input[type=text],
+.middle-learn .additional .form-box select,
+.middle-learn .additional .form-box textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #A7C737;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.middle-learn .additional .form-box input[type=submit] {
+  background-color: #CB2029;
+  color: #E5F2F2;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.middle-learn .additional .form-box input[type=submit]:hover {
+  background-color: #A7C737;
 }
