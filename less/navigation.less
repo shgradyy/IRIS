@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: flex;
     padding: 1.5rem 2rem; 
-    //position: fixed; /* Set the navbar to fixed position */
+    position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     justify-content: space-evenly;
@@ -20,7 +20,24 @@
         width: 100%;
         padding: 25px 6.75% 10px;
     }
-  
+    .photo-box {
+        .img-logo {
+            min-width: 15rem;
+            max-width: 15rem;
+            height: 15rem;
+            border-radius: 25%;
+    
+            @media  (@mobile) {
+                display: none;
+            }
+        }
+        
+            @media (@tablet) {
+                //float: center;
+                width: 100%;
+                margin: 6px 0;
+            }
+        }
     .modal-button {
         -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
         box-shadow: 3px 4px 0px 0px #8a2a21;
@@ -99,22 +116,7 @@
             .cursorRules();
         }
     }
-   
-    .img-logo {
-        min-width: 15rem;
-        max-width: 15rem;
-        height: 15rem;
-        border-radius: 25%;
-
-        @media  (@mobile) {
-            display: none;
-        }
+  
     }
-    
-        @media (@tablet) {
-            //float: center;
-            width: 100%;
-            margin: 6px 0;
-        }
-}
+
    
