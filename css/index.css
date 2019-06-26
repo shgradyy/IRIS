@@ -176,8 +176,11 @@ img {
 .navigation {
   margin: 0 auto;
   display: flex;
-  width: 100%;
   padding: 1.5rem 2rem;
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
   justify-content: space-evenly;
 }
 @media (max-width: 500px) {
@@ -284,8 +287,7 @@ img {
 }
 @media ((max-width: 500px)) {
   .navigation .img-logo {
-    width: 100%;
-    margin: 6px 0;
+    display: none;
   }
 }
 @media ((max-width: 700px)) {
@@ -363,6 +365,7 @@ img {
 .info-top .text-cnt {
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #36312F;
 }
 .info-top .text-cnt h2 {
   font-size: 3rem;
@@ -373,18 +376,39 @@ img {
   letter-spacing: 1px;
 }
 footer {
-  color: #36312F;
-  font-weight: bold;
+  margin: 0 auto;
 }
 footer .apps {
   margin-top: 10px;
 }
 footer p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 footer img {
   width: 100%;
   opacity: 0.9;
+}
+footer a {
+  color: #36312F;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 25px;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: black;
+  border-radius: 15%;
+}
+footer a:focus {
+  text-decoration: underline;
+  color: black;
+  border-radius: 15%;
 }
 .intro-photo {
   background: #FCB614;
@@ -712,6 +736,7 @@ footer img {
 .middle-learn {
   background-color: #FCB614;
   border-radius: 10px;
+  margin-bottom: 60px;
 }
 .middle-learn .comp-history {
   margin: 30px 0;
