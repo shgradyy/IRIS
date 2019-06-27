@@ -177,8 +177,6 @@ img {
   margin: 0 auto;
   display: flex;
   padding: 1.5rem 2rem;
-  top: 0;
-  /* Position the navbar at the top of the page */
   width: 100%;
   /* Full width */
   justify-content: space-evenly;
@@ -195,6 +193,23 @@ img {
     flex-direction: column;
     width: 100%;
     padding: 25px 6.75% 10px;
+  }
+}
+.navigation .photo-box .img-logo {
+  min-width: 15rem;
+  max-width: 15rem;
+  height: 15rem;
+  border-radius: 25%;
+}
+@media ((max-width: 500px)) {
+  .navigation .photo-box .img-logo {
+    display: none;
+  }
+}
+@media ((max-width: 700px)) {
+  .navigation .photo-box {
+    width: 100%;
+    margin: 6px 0;
   }
 }
 .navigation .modal-button {
@@ -279,53 +294,6 @@ img {
   color: black;
   border-radius: 15%;
 }
-.navigation .img-logo {
-  min-width: 15rem;
-  max-width: 15rem;
-  height: 15rem;
-  border-radius: 25%;
-}
-@media ((max-width: 500px)) {
-  .navigation .img-logo {
-    display: none;
-  }
-}
-@media ((max-width: 700px)) {
-  .navigation {
-    width: 100%;
-    margin: 6px 0;
-  }
-}
-.intro-section {
-  background: #E5F2F2 url(../img/school-children.jpg);
-  background-size: cover;
-  top: 0;
-  min-height: 60vh;
-  padding-top: 45vh;
-  padding-bottom: 190px;
-  /*   line-height: 100vh; */
-  /*   width:100%;
-        height:96vh;
-      border:solid; */
-}
-.intro-section .intro-text {
-  color: #E5F2F2;
-  font-weight: 700;
-  margin: 0 auto;
-}
-.intro-section .intro-text h1 {
-  font-size: 10rem;
-}
-.intro-section .intro-text p {
-  font-size: 12rem;
-}
-.intro-photo {
-  margin-top: 90px;
-  background-size: cover;
-  color: #CB2029;
-  font-weight: bolder;
-  padding: 110px 0 110px;
-}
 .headerBox {
   position: relative;
   text-align: center;
@@ -377,6 +345,7 @@ img {
 }
 footer {
   margin: 0 auto;
+  padding-bottom: 30px;
 }
 footer .apps {
   margin-top: 10px;
@@ -413,13 +382,17 @@ footer a:focus {
 .intro-photo {
   background: #FCB614;
   background-size: cover;
+  margin-top: 90px;
+  color: #CB2029;
+  font-weight: bolder;
+  padding: 110px 0 110px;
 }
-.intro-photo .intro-animation {
+.intro-animation {
   animation: blinkingText 4s infinite;
   margin: 0, auto;
   font-size: 5rem;
 }
-.intro-photo .modal-button {
+.modal-button {
   -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
   box-shadow: 3px 4px 0px 0px #8a2a21;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
@@ -445,21 +418,21 @@ footer a:focus {
   text-shadow: 0px 1px 0px #ec4438;
 }
 @media (max-width: 500px) {
-  .intro-photo .modal-button {
+  .modal-button {
     margin: 15px;
     width: 100%;
   }
 }
 @media (max-width: 700px) {
-  .intro-photo .modal-button {
+  .modal-button {
     margin: 15px;
     width: 100%;
   }
 }
-.intro-photo .modal-button #btn2 {
+.modal-button #btn2 {
   padding-bottom: 100px;
 }
-.intro-photo .modal-button:hover {
+.modal-button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
   background: -moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
   background: -webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
@@ -470,17 +443,17 @@ footer a:focus {
   background-color: #f24437;
   border-radius: 18px;
 }
-.intro-photo img {
+#apple-pic {
   width: 50rem;
   height: 40rem;
   padding: 20px;
 }
-.intro-photo .feature-section {
+.feature-section {
   padding: 110px 0 110px;
   background: #cfcfd1;
   padding-bottom: 160px;
 }
-.intro-photo .feature-section .feature-header {
+.feature-section .feature-header {
   margin-top: 50px;
   color: #073784;
   font-weight: bold;
@@ -737,6 +710,7 @@ footer a:focus {
   background-color: #FCB614;
   border-radius: 10px;
   margin-bottom: 60px;
+  color: #36312F;
 }
 .middle-learn .comp-history {
   margin: 30px 0;
@@ -808,9 +782,17 @@ footer a:focus {
     width: 100%;
   }
 }
+.middle-learn .additional .contact-info img {
+  max-width: 10em;
+  margin-bottom: 4em;
+  margin-top: 3em;
+  border-radius: 10%;
+}
+.middle-learn .additional .contact-info .contact {
+  margin-bottom: 30px;
+}
 .middle-learn .additional .form-box {
   width: 48%;
-  border-radius: 10px;
   padding: 20px;
 }
 @media (max-width: 500px) {
