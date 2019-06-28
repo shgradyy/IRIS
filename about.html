@@ -10,7 +10,8 @@
   <!--[if lt IE 9]>
    [<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-<script type="text/javascript" src="JS/main.js" async></script> <!-- Will add JS functionality here. -->
+<script type="text/javascript" src="JS/main.js" async></script>
+<script type="text/javascript" src="JS/about.js" async></script> <!-- Will add JS functionality here. -->
 </head>
 
 <body>
@@ -19,54 +20,174 @@
     <div class="modal-content">
         <div class="close" id="closeB">+</div>
         <h2>Register Your Account:</h2>
-      <img src="img/iris-logoo.png" alt="logo" id="modal-img">
+        <img src="img/iris-logoo.png" alt="logo" id="modal-img">
 
-      <form action="" class="modal-form">
-          <a href="" class="modal-button">Sign-in</a>
+        <form action="" class="modal-form">
+        <a href="" class="modal-button">Sign-in</a>
         <input type="text" placeholder="First Name">
         <input type="text" placeholder="Last Name">
         <input type="email" placeholder="Email">
         <a href="" class="modal-button">Submit</a>
        </form>
-       
-      </div>
+    </div>
   </div> <!--End of Modal Popout-->
 
 <div class="navigation"> <!--navigaion bar that locks when scrolling-->
-    <div class= "photo-box">
-        <img src = "img/iris-logoo.png" alt = "IRIS Logo" class = "img-logo">
+    <div class="photo-box">
+        <img src="img/iris-logoo.png" alt="IRIS Logo" class="img-logo">
     </div>
-    <div class = "nav-links">
+    <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="features.html">Features</a>
         <a href="about.html">Our Team</a>
         <a href="learn.html">Our Company</a>
     </div>
-    <div class = "button-box">
+    <div class="button-box">
         <a href="#" class="modal-button" id="btn">Register/Sign-in</a> 
     </div>
 </div><!--navigaion bar-->
 
 <div class="headerBox">
-    <img src="img/school-children2.png" alt="Shcool Children" class="img-header">
-    <div class="bottom-left"><h2>IRIS</h2><p>International Rural School Report</p></div>
-</div>
+  <img src="img/school-children2.png" alt="Shcool Children" class="img-header">
+  <div class="bottom-left"><h2>IRIS</h2><p>International Rural School Report</p></div>
+</div><!--header-->
+
 <section class="info-top">
-        
-        <div class = "text-cnt">
-            <h2>Hello, World!</h2>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-        </div>
-        <div class="img-cnt">
-             <img src="img/computer.jpg" alt="Meeting Plan">
-        </div>
-    </section>
+  <div class = "text-cnt">
+    <h2>Hello, World!</h2>
+    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+  </div>
+  <img src="img/computer.jpg" alt="Meeting Plan" class="img-cnt">
+</section>
+
 <div class="container">
-
-  
-    
-
-  </div> <!--container-->
+  <div class="accordion">
+    <div class="panel">
+      <div class="panel-bar">
+        <h3>Web Developers</h3>
+        <div class="panel-buttons">
+          <button class="panel-btn-open">Open</button>
+          <button class="panel-btn-close hide-btn">Close</button>
+        </div>
+      </div>
+      <div class="panel-content">
+        <div class="card">
+          <img src="img/iqrah.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Shantay</h2>
+            <p class="title">Full-Stack Web Developer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div><!-- end of card -->
+        <div class="card">
+          <img src="img/iqrah.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Benita</h2>
+            <p class="title">Full-Stack Web Developer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div> <!-- end of card -->
+      </div><!-- end of panel content-->
+    </div><!-- end of panel -->
+    <div class="panel">
+        <div class="panel-bar">
+          <h3>Android Developers</h3>
+          <div class="panel-buttons">
+            <button class="panel-btn-open">Open</button>
+            <button class="panel-btn-close hide-btn">Close</button>
+          </div>
+        </div>
+        <div class="panel-content">
+            <div class="card">
+          <img src="img/nylah-wills.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Nylah</h2>
+            <p class="title">Android Developer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div> 
+        <div class="card">
+          <img src="img/ty-estrada.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Ty</h2>
+            <p class="title">Apple Developer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+        </div>
+    </div><!-- end of panel -->
+    <div class="panel">
+        <div class="panel-bar">
+          <h3>iOS Developers</h3>
+          <div class="panel-buttons">
+            <button class="panel-btn-open">Open</button>
+            <button class="panel-btn-close hide-btn">Close</button>
+          </div>
+        </div>
+        <div class="panel-content">
+          <div class="card">
+          <img src="img/iqrah.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Iqrah</h2>
+            <p class="title">Executive</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div> 
+        <div class="card">
+         <img src="img/freddy-brett.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Freddy</h2>
+            <p class="title">Admin</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+        </div>
+    </div><!-- end of panel -->  
+      <div class="panel">
+        <div class="panel-bar">
+          <h3>Interns</h3>
+          <div class="panel-buttons">
+            <button class="panel-btn-open">Open</button>
+            <button class="panel-btn-close hide-btn">Close</button>
+          </div>
+        </div>
+        <div class="panel-content">
+          <div class="card">
+          <img src="img/josey-dixon.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Josey</h2>
+            <p class="title">Intern</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div> 
+        <div class="card">
+         <img src="img/caspar-blaese.png" alt="Shantay">
+          <div class="dev-person">
+            <h2>Caspar</h2>
+            <p class="title">Intern</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>example@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+        </div>
+    </div><!-- end of panel -->
+  </div><!--accordion -->
+</div> <!--container-->
   
 <footer>
   <img src="img/create.jpg" alt="Create">
