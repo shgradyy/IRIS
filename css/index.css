@@ -343,7 +343,7 @@ img {
   color: #36312F;
 }
 .info-top .text-cnt h2 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   letter-spacing: 1px;
 }
 .info-top .text-cnt p {
@@ -484,10 +484,15 @@ footer a:focus {
   color: #36312F;
   background-color: #FCB614;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 5%;
+}
+.accordion .meet-header h2 {
+  padding: 1%;
+  letter-spacing: 1px;
+  color: #36312F;
 }
 .accordion .team {
-  padding: 30px;
+  padding: 2%;
 }
 .accordion .team .team-bar {
   display: flex;
@@ -512,29 +517,44 @@ footer a:focus {
 }
 .accordion .team .team-content {
   display: none;
-  justify-content: space-around;
-  margin-top: 10px;
-}
-@media (max-width: 500px) {
-  .accordion .team .team-content {
-    flex-direction: column;
-    justify-content: center;
-  }
+  margin-top: 1%;
 }
 .accordion .team .team-content .card {
   background-color: white;
   border: 2px solid #A7C737;
-  height: 500px;
-  width: 300px;
-  min-width: 300px;
-  margin-top: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
 }
-.accordion .team .team-content .card img {
-  width: 100%;
-  height: 250px;
+@media (max-width: 500px) {
+  .accordion .team .team-content .card {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}
+.accordion .team .team-content .card .card-img {
+  width: 50%;
+  border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .accordion .team .team-content .card .card-img {
+    width: 100%;
+  }
+}
+.accordion .team .team-content .card .dev-person {
+  width: 50%;
+  margin-top: 6%;
+}
+@media (max-width: 500px) {
+  .accordion .team .team-content .card .dev-person {
+    margin-top: 2%;
+    width: 100%;
+  }
 }
 .accordion .team .team-content .card .dev-person .button {
-  border: none;
+  margin-top: 5%;
   outline: 0;
   display: inline-block;
   padding: 8px;
@@ -544,6 +564,11 @@ footer a:focus {
   border: 1px solid #A7C737;
   cursor: pointer;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .accordion .team .team-content .card .dev-person .button {
+    margin-top: 2%;
+  }
 }
 .accordion .team .team-content .card .dev-person .button:hover {
   background-color: #A7C737;
