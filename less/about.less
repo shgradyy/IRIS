@@ -20,21 +20,13 @@
         
             .team-buttons {
                 button {
-                    border: none;
-                    padding: 8px;
-                    color: @bodyBg;
-                    background-color: @footerBg;
                     border-radius: 10px;
-                    text-align: center;
-                    border: 1px solid @navFont;
-                    cursor: pointer;
+                    .buttonRules(@buttonFont, @buttonBg);
         
                     &:hover {
                         background-color: @navFont;
-                        border: 1px solid @footerBg;
                     }
                 }
-
                 .hide-btn {
                     display: none;
                 }
@@ -46,20 +38,21 @@
             margin-top: 1%;
               
             .card {
-                background-color: white;
+                background-color: @buttonFont;
                 border: 2px solid @navFont;
                 border-radius: 10px;
                 width: 80%;
                 margin: 0 auto;
                 display: flex;
-    
+                  
                 @media @mobile {
                     flex-direction: column;
                     width: 100%;
                     justify-content: center;
                 }
 
-                .card-img{
+                .card-img {
+                    
                     width: 50%;
                     border-radius: 10px;
 
@@ -71,20 +64,17 @@
                 .dev-person {
                     width: 50%;
                     margin-top: 6%;
+
                     @media @mobile {
                         margin-top: 2%;
                         width:100%;
                     }
+                    
                     .button {
+                        .buttonRules(@buttonFont, @buttonBg);
                         margin-top: 5%;
                         outline: 0;
                         display: inline-block;
-                        padding: 8px;
-                        color: @bodyBg;
-                        background-color: @footerBg;
-                        text-align: center;
-                        border: 1px solid @navFont;
-                        cursor: pointer;
                         width: 100%;
 
                         @media @mobile {
@@ -93,7 +83,7 @@
 
                         &:hover {
                             background-color: @navFont;
-                            border: 1px solid @footerBg;
+                           
                         }
                     }
                 }

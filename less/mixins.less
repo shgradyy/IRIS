@@ -2,7 +2,25 @@
 .cursorRules() {
     text-decoration: underline;
     color: black;
-    border-radius: 15%;
-}//make this accept parameters. Stretch: Make it more accessible and not rely solely on colors to change
+    
+}//make this accept parameters. 
 
-  
+.navLinkRules() {
+    color: @font-color;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    line-height: 25px;
+}
+
+.buttonRules(@fontColor, @bgColor) {
+    border: none;
+    color: @fontColor;
+    padding: 8px;
+    cursor: pointer;
+    text-align: center;
+    background-color: @bgColor;
+}

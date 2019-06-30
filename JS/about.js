@@ -1,12 +1,10 @@
-  class Team {
+class Team {
     constructor(teamElement){
       this.teamContent = teamElement.querySelector(".team-content");
       this.buttonsGroup = teamElement.querySelector(".team-buttons");
       this.openButton = teamElement.querySelector(".team-btn-open");
       this.closeButton = teamElement.querySelector(".team-btn-close");
-      
       this.buttonsGroup.addEventListener('click', this.togglePanel.bind(this))
-  
     } 
   
     togglePanel(){
