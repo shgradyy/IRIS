@@ -313,27 +313,6 @@ img {
   background-color: #f24437;
   border-radius: 18px;
 }
-.headerBox {
-  position: relative;
-  text-align: center;
-  color: #FCB614;
-}
-.headerBox .bottom-left {
-  position: absolute;
-  bottom: 1em;
-  left: 10em;
-}
-.headerBox .bottom-left h2 {
-  font-size: 6rem;
-  letter-spacing: 10px;
-}
-.headerBox .bottom-left p {
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-.headerBox .img-header {
-  opacity: 0.9;
-}
 header .first-photo {
   position: relative;
   text-align: center;
