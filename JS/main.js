@@ -25,8 +25,6 @@ function closeModal(){
 
 //Second Button
 
-//Get modal background
-const modBackground2 = document.getElementById("modal-bg");
 
 // Get  open modal button
 const modalBtn2 = document.getElementById("btn2");
