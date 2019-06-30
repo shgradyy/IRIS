@@ -328,35 +328,6 @@ img {
 .headerBox .img-header {
   opacity: 0.9;
 }
-.info-top {
-  display: block;
-  flex-wrap: wrap;
-  margin-top: 3%;
-  margin-bottom: 5%;
-}
-@media (max-width: 500px) {
-  .info-top {
-    width: 100%;
-  }
-}
-.info-top img {
-  width: 100%;
-  opacity: 0.9;
-}
-.info-top .text-cnt {
-  margin: 0 auto;
-  max-width: 92%;
-  margin-bottom: 2%;
-  color: #36312F;
-}
-.info-top .text-cnt h2 {
-  font-size: 3.2rem;
-  letter-spacing: 1px;
-}
-.info-top .text-cnt p {
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-}
 header .first-photo {
   position: relative;
   text-align: center;
@@ -592,6 +563,10 @@ footer a:focus {
 .accordion .team .team-content .card .dev-person {
   width: 50%;
   margin-top: 6%;
+}
+.accordion .team .team-content .card .dev-person .title {
+  font-size: 1.6rem;
+  margin-bottom: 3%;
 }
 @media (max-width: 500px) {
   .accordion .team .team-content .card .dev-person {
