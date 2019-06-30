@@ -1,0 +1,59 @@
+header {
+    .first-photo{
+        position: relative;
+        text-align: center;
+        color: @footerFont;
+        //margin-top: 200px; //only needed if doing fixed nav bar
+
+        .bottom-left{
+            position: absolute;
+            bottom: 1em;
+            left: 10em;
+
+        h2{
+            font-size: 6rem;
+            letter-spacing: 10px;
+            }
+            p{
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+        }
+        .img-header {
+            opacity: 0.9;
+        }
+    }
+ 
+.info-top {
+    display: block;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+    @media @mobile {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .text-cnt {
+        margin: 0 auto;
+        max-width: 92%;
+        margin-bottom: 2%;
+        color: @font-color;
+        
+        h2{
+            font-size: 3.2rem;
+            letter-spacing: 1px;
+         }
+
+         p{
+             font-size: 1.6rem;
+             letter-spacing: 1px;
+         }
+    }
+}
+}
