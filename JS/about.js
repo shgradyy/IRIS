@@ -4,7 +4,7 @@ class Team {
       this.buttonsGroup = teamElement.querySelector(".team-buttons");
       this.openButton = teamElement.querySelector(".team-btn-open");
       this.closeButton = teamElement.querySelector(".team-btn-close");
-      this.buttonsGroup.addEventListener('click', this.togglePanel.bind(this))
+      this.buttonsGroup.addEventListener('click', this.togglePanel.bind(this));
     } 
   
     togglePanel(){
@@ -18,7 +18,7 @@ class Team {
   
   panels.forEach( (teamElement) => {
     return new Team(teamElement);
-  })
+  });
   
 
   
