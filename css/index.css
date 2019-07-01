@@ -879,11 +879,11 @@ footer a:focus {
   border-radius: 10%;
 }
 .middle-learn .additional .contact-info .contact {
-  margin-bottom: 30px;
+  margin-bottom: 5%;
 }
 .middle-learn .additional .form-box {
   width: 48%;
-  padding: 20px;
+  padding: 2%;
 }
 @media (max-width: 500px) {
   .middle-learn .additional .form-box {
@@ -894,22 +894,27 @@ footer a:focus {
 .middle-learn .additional .form-box select,
 .middle-learn .additional .form-box textarea {
   width: 100%;
-  padding: 12px;
+  padding: 2%;
   border: 2px solid #A7C737;
   border-radius: 10px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 1%;
+  margin-bottom: 3%;
   resize: vertical;
 }
 .middle-learn .additional .form-box input[type=submit] {
   background-color: #CB2029;
   color: #fdf5e6;
-  padding: 12px 20px;
+  padding: 2% 3%;
   border: none;
   border-radius: 10px;
   cursor: pointer;
 }
 .middle-learn .additional .form-box input[type=submit]:hover {
   background-color: #A7C737;
+}
+.middle-learn .additional .contact-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+  margin-top: 3%;
 }
