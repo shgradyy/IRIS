@@ -324,11 +324,11 @@ header .first-photo .bottom-left {
   left: 10em;
 }
 header .first-photo .bottom-left h2 {
-  font-size: 4rem;
-  letter-spacing: 5px;
+  font-size: 2.8rem;
+  letter-spacing: 3px;
 }
 header .first-photo .bottom-left p {
-  font-size: 2rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
 }
 header .first-photo .img-header {
