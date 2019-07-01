@@ -14,12 +14,11 @@ modalBtn.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
 
 //function to open modal
-function openModal(){
-    modBackground.style.display = "flex";
+function openModal() {
+  modBackground.style.display = "flex";
 }
 
 //function to close modal
-function closeModal(){
-    modBackground.style.display = "none"
+function closeModal() {
+  modBackground.style.display = "none";
 }
-

@@ -1,131 +1,131 @@
 .middle-learn {
-    background-color: @infoTopBg;
-    color: @font-color;
+  background-color: @infoTopBg;
+  color: @font-color;
 
-    .comp-history {
-        margin: 30px 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-top: 30px;
-        
+  .comp-history {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
 
-        @media @mobile {
-        flex-direction: column;
-        }
-   
-        .text-box {
-            width: 48%;
-            padding-right: 1%;
-            padding-left: 4%;
-
-            @media @mobile {
-                width: 100%;
-            }
-        }
-
-        .img-content {
-            width: 48%;
-            padding-left: 1%;
-
-            @media @mobile {
-                width: 100%;
-            }
-
-            img {
-                border-radius: 10px;
-            }
-        }
+    @media @mobile {
+      flex-direction: column;
     }
 
-    .reverse {
-        padding-left: 0;
-        padding-right:3%;
-        padding-bottom: 30px;
-        padding-top: 0;
+    .text-box {
+      width: 48%;
+      padding-right: 1%;
+      padding-left: 4%;
 
-        @media @mobile {
-            flex-direction: column-reverse;
-        }
-
-        .text-content {
-            padding-left: 1%;
-            padding-right: 0;
-        }
-
-        .img-content {
-            padding-right: 1%;
-            padding-left: 0;
-        }
+      @media @mobile {
+        width: 100%;
+      }
     }
-    
-    .additional {
-        display: flex;
 
-        @media @mobile {
-            flex-direction: column;
-        }
+    .img-content {
+      width: 48%;
+      padding-left: 1%;
 
-        .contact-info {
-            margin: auto 0;
-            width: 48%;
+      @media @mobile {
+        width: 100%;
+      }
 
-            @media @mobile {
-                width: 100%;
-            }
-
-            img {
-                max-width: 10em;
-                margin-bottom: 4em;
-                margin-top: 3em;
-                border-radius: 10%;
-            }
-
-            .contact{
-                margin-bottom: 5%;
-            }
-           
-        }
-   
-        .form-box {
-            width: 48%;
-            padding: 2%;
-
-            @media @mobile {
-                width: 100%;
-            }
-
-            input[type=text], select, textarea {
-                width: 100%; 
-                padding: 2%;  
-                border: 2px solid @navFont;
-                border-radius: 10px; 
-                box-sizing: border-box;
-                margin-top: 1%; 
-                margin-bottom: 3%; 
-                resize: vertical; 
-            }
-
-            input[type=submit] {
-                background-color: @buttonBg;
-                color: @buttonFont;
-                padding: 2% 3%;
-                border: none;
-                border-radius: 10px;
-                cursor: pointer;
-            
-                &:hover {
-                    background-color: @navFont;
-                }
-            }
-        }
-
-        .contact-info{
-            h3 {
-                font-size: 1.3rem;
-                margin-bottom: 1%;
-                margin-top: 3%;
-            }
-        }
+      img {
+        border-radius: 10px;
+      }
     }
+  }
+
+  .reverse {
+    padding-left: 0;
+    padding-right: 3%;
+    padding-bottom: 30px;
+    padding-top: 0;
+
+    @media @mobile {
+      flex-direction: column-reverse;
+    }
+
+    .text-content {
+      padding-left: 1%;
+      padding-right: 0;
+    }
+
+    .img-content {
+      padding-right: 1%;
+      padding-left: 0;
+    }
+  }
+
+  .additional {
+    display: flex;
+
+    @media @mobile {
+      flex-direction: column;
+    }
+
+    .contact-info {
+      margin: auto 0;
+      width: 48%;
+
+      @media @mobile {
+        width: 100%;
+      }
+
+      img {
+        max-width: 10em;
+        margin-bottom: 4em;
+        margin-top: 3em;
+        border-radius: 10%;
+      }
+
+      .contact {
+        margin-bottom: 5%;
+      }
+    }
+
+    .form-box {
+      width: 48%;
+      padding: 2%;
+
+      @media @mobile {
+        width: 100%;
+      }
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 2%;
+        border: 2px solid @navFont;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: @buttonBg;
+        color: @buttonFont;
+        padding: 2% 3%;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: @navFont;
+        }
+      }
+    }
+
+    .contact-info {
+      h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1%;
+        margin-top: 3%;
+      }
+    }
+  }
 }

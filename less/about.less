@@ -1,102 +1,99 @@
 .accordion {
-    .meet-header {
-              
-        h2 {
-            padding: 1%;
-            letter-spacing: 1px;
-            color: @font-color;
+  .meet-header {
+    h2 {
+      padding: 1%;
+      letter-spacing: 1px;
+      color: @font-color;
+    }
+  }
+
+  color: @font-color;
+  background-color: @infoTopBg;
+
+  .team {
+    padding: 2%;
+
+    .team-bar {
+      display: flex;
+      justify-content: space-between;
+
+      .team-buttons {
+        button {
+          border-radius: 10px;
+          .buttonRules(@buttonFont, @buttonBg);
+
+          &:hover {
+            background-color: @navFont;
+          }
         }
+        .hide-btn {
+          display: none;
+        }
+      }
     }
 
-    color: @font-color;
-    background-color: @infoTopBg;
-    
-    .team {
-        padding: 2%;
-        
-        .team-bar {
-            display: flex;
-            justify-content: space-between;  
-        
-            .team-buttons {
-                button {
-                    border-radius: 10px;
-                    .buttonRules(@buttonFont, @buttonBg);
-        
-                    &:hover {
-                        background-color: @navFont;
-                    }
-                }
-                .hide-btn {
-                    display: none;
-                }
+    .team-content {
+      display: none;
+      margin-top: 1%;
+
+      .card {
+        background-color: @buttonFont;
+        border: 2px solid @navFont;
+        border-radius: 10px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+
+        @media @mobile {
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+        }
+
+        .card-img {
+          width: 50%;
+          border-radius: 10px;
+
+          @media @mobile {
+            width: 100%;
+          }
+        }
+
+        .dev-person {
+          width: 50%;
+          margin-top: 6%;
+
+          .title {
+            font-size: 1.6rem;
+            margin-bottom: 3%;
+          }
+
+          @media @mobile {
+            margin-top: 2%;
+            width: 100%;
+          }
+
+          .button {
+            .buttonRules(@buttonFont, @buttonBg);
+            margin-top: 5%;
+            outline: 0;
+            display: inline-block;
+            width: 100%;
+
+            @media @mobile {
+              margin-top: 2%;
             }
-        }
-      
-        .team-content {
-            display: none;
-            margin-top: 1%;
-              
-            .card {
-                background-color: @buttonFont;
-                border: 2px solid @navFont;
-                border-radius: 10px;
-                width: 80%;
-                margin: 0 auto;
-                display: flex;
-                  
-                @media @mobile {
-                    flex-direction: column;
-                    width: 100%;
-                    justify-content: center;
-                }
 
-                .card-img {
-                    
-                    width: 50%;
-                    border-radius: 10px;
-
-                    @media @mobile {
-                        width:100%;
-                    }
-                }
-
-                .dev-person {
-                    width: 50%;
-                    margin-top: 6%;
-
-                    .title {
-                        font-size: 1.6rem;
-                        margin-bottom: 3%;
-                    }
-
-                    @media @mobile {
-                        margin-top: 2%;
-                        width:100%;
-                    }
-                    
-                    .button {
-                        .buttonRules(@buttonFont, @buttonBg);
-                        margin-top: 5%;
-                        outline: 0;
-                        display: inline-block;
-                        width: 100%;
-
-                        @media @mobile {
-                            margin-top: 2%;
-                        }
-
-                        &:hover {
-                            background-color: @navFont;
-                           
-                        }
-                    }
-                }
+            &:hover {
+              background-color: @navFont;
             }
+          }
         }
-      
-        .toggle-on {
-            display: flex;
-        }
+      }
     }
-}//accordian
+
+    .toggle-on {
+      display: flex;
+    }
+  }
+} //accordian

@@ -1,6 +1,5 @@
 //Second Button Index page
 
-
 // Get  open modal button
 const modalBtn2 = document.getElementById("btn2");
 
@@ -14,11 +13,11 @@ modalBtn2.addEventListener("click", openModal2);
 closeBtn2.addEventListener("click", closeModal2);
 
 //function to open modal
-function openModal2(){
-    modBackground.style.display = "flex";
+function openModal2() {
+  modBackground.style.display = "flex";
 }
 
 //function to close modal
-function closeModal2(){
-    modBackground.style.display = "none"
+function closeModal2() {
+  modBackground.style.display = "none";
 }
