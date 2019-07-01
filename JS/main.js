@@ -25,7 +25,10 @@ function closeModal(){
 
 //Second Button
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 45f63519ef40c09f4cf8dbd40a93daf3c9372658
 // Get  open modal button
 const modalBtn2 = document.getElementById("btn2");
 
