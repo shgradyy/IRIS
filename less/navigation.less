@@ -1,29 +1,30 @@
 .navigation {
-    margin: 0 auto;
     display: flex;
-    padding: 1.5rem 2rem; 
-    width: 100%; /* Full width */
-    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    width: 90%; 
+    //position: fixed;
+    justify-content: space-between;
     background-color: white;
    
     @media @tablet {
-        flex-direction: column;
-        width: 100%;  
-        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     @media @mobile {
         flex-direction: column;
-        width: 100%;       
+        width: 90%;       
     }
+ 
+    .img-logo {        
+        min-width: 10em;
+        max-width: 10em;
+        height: 8em;
+        border-radius: 25%;        
 
-    
-
-    .photo-box {
-        img {
-            min-width: 10em;
-            max-width: 10em;
-            height: 8em;
-            border-radius: 25%;
+        @media  @tablet {
+            padding-right: 0px;
         }
 
         @media  @mobile {
@@ -32,8 +33,11 @@
     }
 
     .nav-links {
-        margin-top: 2%;
         display: flex;
+        margin-top: 2%;
+        justify-content: space-between;
+        align-items: center;
+        
               
         @media @mobile {
             width: 100%;
@@ -43,8 +47,7 @@
         }
 
         @media @tablet {
-            
-            width: 100%;
+            width: 95%;
             margin-top: 5%;
             margin-bottom: 5%;
         }
@@ -52,7 +55,7 @@
         .n-links {
             
             @media @mobile {
-                margin-top: 1%;
+                margin-top: 2%;
             }
 
             a {
