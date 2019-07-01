@@ -136,7 +136,7 @@ html {
 }
 html,
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: white;
 }
 body {
@@ -147,7 +147,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -238,7 +238,7 @@ img {
   }
 }
 .navigation .nav-links .n-links a {
-  color: #36312F;
+  color: #36312f;
   letter-spacing: 2px;
   font-size: 1.8rem;
   text-decoration: none;
@@ -316,7 +316,7 @@ img {
 header .first-photo {
   position: relative;
   text-align: center;
-  color: #FCB614;
+  color: #fcb614;
 }
 header .first-photo .bottom-left {
   position: absolute;
@@ -324,8 +324,8 @@ header .first-photo .bottom-left {
   left: 10em;
 }
 header .first-photo .bottom-left h2 {
-  font-size: 6rem;
-  letter-spacing: 10px;
+  font-size: 4rem;
+  letter-spacing: 5px;
 }
 header .first-photo .bottom-left p {
   font-size: 2rem;
@@ -353,7 +353,7 @@ header .info-top .text-cnt {
   margin: 0 auto;
   max-width: 92%;
   margin-bottom: 2%;
-  color: #36312F;
+  color: #36312f;
 }
 header .info-top .text-cnt h2 {
   font-size: 3.2rem;
@@ -376,7 +376,7 @@ footer p {
   font-weight: bold;
   padding-bottom: 1%;
   padding-top: 1%;
-  color: #36312F;
+  color: #36312f;
   letter-spacing: 2px;
 }
 footer img {
@@ -384,7 +384,7 @@ footer img {
   opacity: 0.9;
 }
 footer a {
-  color: #36312F;
+  color: #36312f;
   letter-spacing: 2px;
   font-size: 1.8rem;
   text-decoration: none;
@@ -402,10 +402,10 @@ footer a:focus {
   color: black;
 }
 .intro-index {
-  background: #FCB614;
+  background: #fcb614;
   background-size: cover;
   margin-top: 5%;
-  color: #CB2029;
+  color: #cb2029;
   font-weight: bolder;
   padding: 5% 2% 2%;
 }
@@ -477,23 +477,23 @@ footer a:focus {
 }
 @keyframes blinkingText {
   0% {
-    color: #CB2029;
+    color: #cb2029;
   }
   99% {
     color: transparent;
   }
   100% {
-    color: #CB2029;
+    color: #cb2029;
   }
 }
 .accordion {
-  color: #36312F;
-  background-color: #FCB614;
+  color: #36312f;
+  background-color: #fcb614;
 }
 .accordion .meet-header h2 {
   padding: 1%;
   letter-spacing: 1px;
-  color: #36312F;
+  color: #36312f;
 }
 .accordion .team {
   padding: 2%;
@@ -509,10 +509,10 @@ footer a:focus {
   padding: 8px;
   cursor: pointer;
   text-align: center;
-  background-color: #CB2029;
+  background-color: #cb2029;
 }
 .accordion .team .team-bar .team-buttons button:hover {
-  background-color: #A7C737;
+  background-color: #a7c737;
 }
 .accordion .team .team-bar .team-buttons .hide-btn {
   display: none;
@@ -523,7 +523,7 @@ footer a:focus {
 }
 .accordion .team .team-content .card {
   background-color: #fdf5e6;
-  border: 2px solid #A7C737;
+  border: 2px solid #a7c737;
   border-radius: 10px;
   width: 80%;
   margin: 0 auto;
@@ -538,6 +538,7 @@ footer a:focus {
 }
 .accordion .team .team-content .card .card-img {
   width: 50%;
+  max-height: 40rem;
   border-radius: 10px;
 }
 @media (max-width: 500px) {
@@ -565,7 +566,7 @@ footer a:focus {
   padding: 8px;
   cursor: pointer;
   text-align: center;
-  background-color: #CB2029;
+  background-color: #cb2029;
   margin-top: 5%;
   outline: 0;
   display: inline-block;
@@ -577,7 +578,7 @@ footer a:focus {
   }
 }
 .accordion .team .team-content .card .dev-person .button:hover {
-  background-color: #A7C737;
+  background-color: #a7c737;
 }
 .accordion .team .toggle-on {
   display: flex;
@@ -592,12 +593,12 @@ footer a:focus {
   opacity: 1;
 }
 #feature-item-intro .feature-header {
-  color: #FCB614;
+  color: #fcb614;
   padding: 12px;
   font-size: 4rem;
 }
 #feature-item-intro .feature-content {
-  color: #FCB614;
+  color: #fcb614;
   padding: 12px;
   font-size: 2.5rem;
   padding: 20px;
@@ -610,7 +611,7 @@ footer a:focus {
   width: 60em;
 }
 #app-feature {
-  background: url(../img/Cell\ Phone.jpg);
+  background: url(../img/Cell\Phone.jpg);
   background-color: #cfcfd1;
   opacity: 0.8;
 }
@@ -626,14 +627,14 @@ footer a:focus {
   padding: 20px;
 }
 #connect-feature {
-  background: url(../img/sticky=note\ meeting.jpg);
+  background: url(../img/sticky=note\meeting.jpg);
   background-color: #cfcfd1;
 }
 #connect-feature .feature-header {
   color: #fdf5e6;
   padding: 12px;
   font-size: 4rem;
-  background-color: #36312F;
+  background-color: #36312f;
   opacity: 0.7;
 }
 #connect-feature .feature-content {
@@ -641,25 +642,25 @@ footer a:focus {
   padding: 12px;
   font-size: 2.5rem;
   padding: 20px;
-  background-color: #36312F;
+  background-color: #36312f;
   opacity: 0.7;
 }
 #work-order-feature {
-  background-color: #A7C737;
+  background-color: #a7c737;
 }
 #work-order-feature .feature-header {
-  color: #FCB614;
+  color: #fcb614;
   padding: 12px;
   font-size: 4rem;
-  background-color: #36312F;
+  background-color: #36312f;
   opacity: 0.7;
 }
 #work-order-feature .feature-content {
-  color: #FCB614;
+  color: #fcb614;
   padding: 12px;
   font-size: 2.5rem;
   padding: 20px;
-  background-color: #36312F;
+  background-color: #36312f;
   opacity: 0.7;
 }
 @keyframes flicker {
@@ -783,8 +784,8 @@ footer a:focus {
   }
 }
 .middle-learn {
-  background-color: #FCB614;
-  color: #36312F;
+  background-color: #fcb614;
+  color: #36312f;
 }
 .middle-learn .comp-history {
   margin: 30px 0;
@@ -874,28 +875,28 @@ footer a:focus {
     width: 100%;
   }
 }
-.middle-learn .additional .form-box input[type=text],
+.middle-learn .additional .form-box input[type="text"],
 .middle-learn .additional .form-box select,
 .middle-learn .additional .form-box textarea {
   width: 100%;
   padding: 2%;
-  border: 2px solid #A7C737;
+  border: 2px solid #a7c737;
   border-radius: 10px;
   box-sizing: border-box;
   margin-top: 1%;
   margin-bottom: 3%;
   resize: vertical;
 }
-.middle-learn .additional .form-box input[type=submit] {
-  background-color: #CB2029;
+.middle-learn .additional .form-box input[type="submit"] {
+  background-color: #cb2029;
   color: #fdf5e6;
   padding: 2% 3%;
   border: none;
   border-radius: 10px;
   cursor: pointer;
 }
-.middle-learn .additional .form-box input[type=submit]:hover {
-  background-color: #A7C737;
+.middle-learn .additional .form-box input[type="submit"]:hover {
+  background-color: #a7c737;
 }
 .middle-learn .additional .contact-info h3 {
   font-size: 1.3rem;
