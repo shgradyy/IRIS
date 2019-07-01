@@ -24,7 +24,7 @@ const aboutContent = {
         "devTitle-1": "Full-Stack Web Developer",
         "devBio-1": "I am a teacher, developer, and writer.",
         "devBio-2": "I am armed with a desire and drive to suceed.",
-        "devPhone-1": "252.917.4043",
+        "devPhone-1": "252.917.4044",
         "devPhone-2": "708.831.3799"
     }
 }
