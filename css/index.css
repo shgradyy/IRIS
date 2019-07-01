@@ -589,21 +589,17 @@ footer a:focus {
 #feature-item-intro {
   background: url(../img/dark-empty-classroom.jpg);
   opacity: 0.6;
-  z-index: 1;
   opacity: 1;
-  height: 350px;
 }
 #feature-item-intro .feature-header {
   color: #FCB614;
   padding: 12px;
   font-size: 4rem;
-  z-index: 1;
 }
 #feature-item-intro .feature-content {
   color: #FCB614;
   padding: 12px;
   font-size: 2.5rem;
-  z-index: 1;
   padding: 20px;
 }
 .flicker {
@@ -617,31 +613,26 @@ footer a:focus {
   background: url(../img/Cell\ Phone.jpg);
   background-color: #cfcfd1;
   opacity: 0.8;
-  height: 450px;
 }
 #app-feature .feature-header {
   color: #073784;
   padding: 12px;
   font-size: 4rem;
-  z-index: 1;
 }
 #app-feature .feature-content {
   color: #073784;
   padding: 12px;
   font-size: 2.5rem;
-  z-index: 1;
   padding: 20px;
 }
 #connect-feature {
   background: url(../img/sticky=note\ meeting.jpg);
   background-color: #cfcfd1;
-  height: 350px;
 }
 #connect-feature .feature-header {
   color: #fdf5e6;
   padding: 12px;
   font-size: 4rem;
-  z-index: 1;
   background-color: #36312F;
   opacity: 0.7;
 }
@@ -649,20 +640,17 @@ footer a:focus {
   color: #fdf5e6;
   padding: 12px;
   font-size: 2.5rem;
-  z-index: 1;
   padding: 20px;
   background-color: #36312F;
   opacity: 0.7;
 }
 #work-order-feature {
   background-color: #A7C737;
-  height: 350px;
 }
 #work-order-feature .feature-header {
   color: #FCB614;
   padding: 12px;
   font-size: 4rem;
-  z-index: 1;
   background-color: #36312F;
   opacity: 0.7;
 }
@@ -670,13 +658,9 @@ footer a:focus {
   color: #FCB614;
   padding: 12px;
   font-size: 2.5rem;
-  z-index: 1;
   padding: 20px;
   background-color: #36312F;
   opacity: 0.7;
-}
-#work-img-dv {
-  height: 100px;
 }
 @keyframes flicker {
   0% {
